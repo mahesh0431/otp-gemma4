@@ -1,0 +1,30 @@
+# Local environments
+.venv/
+.env
+.env.*
+
+# Python/cache artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Large local ML artifacts
+data/
+datasets/
+models/
+checkpoints/
+adapters/
+outputs/
+runs/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
